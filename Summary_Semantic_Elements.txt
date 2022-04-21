@@ -1,0 +1,19 @@
+Author: William Almond 
+Class: HTML5100
+Assignment: Lesson 1
+Date: 4/20/2022
+
+Semantic Elements Summary
+
+HTML5 requires "div" tags to separate sections of the webpages. These div's filled up HTML code and made it difficult to read. 
+In an effort to improve, semantics were invented. Semantics are preformatted div tags that provide the same functionality but
+are easier to read, provide better searchability, allow devs to understand your code and it's function better. For example, 
+a developer might be inclined to write <div id="header">, but now the dev can just type <header> much like the <body> and <p>
+tags that most are accustom to. These semantic tags that were selected were chosen by Google after they analyzed over a Billion 
+webpages and found the most used id's assigned to div's.
+
+Bibliography:
+@mi-lee, Michelle. “An Overview of HTML5 Semantics by Michelle on CodePen.” CodePen, 5 Jan. 2016,
+    https://codepen.io/mi-lee/post/an-overview-of-html5-semantics.
+
+
