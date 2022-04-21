@@ -4,65 +4,109 @@
     Assignment: Lesson 1
     Date: 4/20/2022
     Description: This webpage is intended as an excersise to explore over 15 different semantic tags.
+    I count 24 unique tags used in this program, if you subtract the 5 mandatory tags, that is still 19
+    unique tags used in this program. 
+
+    validator.w3.org shows no warnings or errors.
 -->
+<!-- 1 -->
 <!DOCTYPE html>
-<html>
+<!-- 2 -->
+<html lang="en">
+    <!-- 3 -->
     <head>
+        <!-- 4 -->
         <title>Semantic Elements Excersise</title>
+        <!-- 5 -->
         <meta charset="utf-8">
     </head>
-    <body style="text-align: center; margin: auto;">
+    <!-- 6 -->
+    <body style=" text-align: center; margin: 0 auto; width: 75%;">
+        <!-- 7 -->
         <section id="top">
+            <!-- 8 -->
             <header id="splash">
+                <!-- 9 -->
                 <h1 id="title" style="
+                background-image: url('images/banner.webp');
+                font-size: xxx-large;
                 outline: auto;
-                position:absolute;
-                width:100%;
+                padding: 66px;
                 color:white;
-
-                margin:0;"><b>Semantic Elements <em>UNITE!</em></b></h1>
-                <img src="images/banner.webp" alt="banner">
-                
+                ">
+                <!-- 10 -->
+                <b>Semantic Elements <em>UNITE!</em></b></h1>
             </header>
+            <!-- 11 -->
             <nav>
-                <ul class="nav-list" style="list-style-type: none;">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="README.md">README</a></li>
-                    <li><a href=""></a>Nothing</li>
-                </ul>
+                <!-- 12 -->
+                <a href="index.html">Home</a> | 
+                <a href="README.md">README</a> | 
+                <a href="Summary_Semantic_Elements.txt">Report Text</a>
+                
             </nav>
         </section>
+        <!-- 13 -->
         <article>
             <header>
+                <!-- 14 -->
                 <h2>What are Semantics in HTML5?</h2>
             </header>
-            <p>
-                <blockquote cite="https://codepen.io/mi-lee/post/an-overview-of-html5-semantics">
-                    A semantic element clearly describes its meaning to both the browser and the developer.
-                </blockquote>
-                HTML5 requires "div" tags to separate sections of the webpages. These div's filled up HTML code and made it difficult to read. 
-                In an effort to improve, semantics were invented. Semantics are preformatted div tags that provide the same functionality but
-                are easier to read, provide better searchability, allow devs to understand your code and it's function better. For example, 
-                a developer might be inclined to write div id="header", but now the dev can just type header much like the body and p
-                tags that most are accustom to. These semantic tags that were selected were chosen by Google after they analyzed over a Billion 
-                webpages and found the most used id's assigned to div's.
-
-            </p>
-            <aside>
+            <!-- 15 -->
+            <aside style="
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;">
                 <header>
+                    <!-- 16 -->
                     <h3>Fun Facts</h3>
                 </header>
                 <nav>
                     <p>Select your Fun fact:</p>
+                    <!-- 17 -->
                     <input list="my-list">
+                    <!-- 18 -->
                     <datalist id="my-list">
+                        <!-- 19 -->
                         <option value="1"></option>
                         <option value="2"></option>
                         <option value="3"></option>
                     </datalist>
                 </nav>
+                <!-- 20 -->
+                <blockquote cite="https://codepen.io/mi-lee/post/an-overview-of-html5-semantics">
+                    A semantic element clearly describes its meaning to both the browser and the developer.
+                </blockquote>
             </aside>
-        </article>
+            <p>
+            HTML5 requires "div" tags to separate sections of the webpages. These div's filled up HTML code and made it difficult to read. 
+            In an effort to improve, semantics were invented. Semantics are preformatted div tags that provide the same functionality but
+            are easier to read, provide better searchability, allow devs to understand your code and it's function better. For example, 
+            a developer might be inclined to write div id="header", but now the dev can just type header much like the body and p
+            tags that most are accustom to. These semantic tags that were selected were chosen by Google after they analyzed over a Billion 
+            webpages and found the most used id's assigned to div's.
+            </p>
 
+        </article>
+        <!-- 21 -->
+        <figure>
+            <!-- 22 -->
+            <img src="images/FallCampus.jpg" alt="Fall-Campus" style="padding-top: 10px;">
+            <!-- 23 -->
+            <figcaption><em>Copyright: © UW College of Arts & Sciences</em></figcaption>
+        </figure>
+        <!-- 24 -->
+        <footer>
+            <nav>
+                <a href="index.html">Home</a> | 
+                <a href="README.md">README</a> | 
+                <a href="Summary_Semantic_Elements.txt">Report Text</a>
+                <p>Thank you for visiting my Page </p>
+            </nav>
+        </footer>
     </body>
+
 </html>
